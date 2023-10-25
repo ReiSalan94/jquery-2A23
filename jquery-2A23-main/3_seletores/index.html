@@ -11,17 +11,30 @@
     <!--Funcionalidade da página-->
     <script type="text/javascript">
         $(document).ready(function () {
-            $("#listaOrdenada").css("color", "red");
-        });
+           //Exemplo prático de seletores
+            $("#listaOrdenadaUm").css("color", "red");
+            $(".listaOrdenadaDois").css("color", "green");
+            $("ul").css("color", "blue");
+       });
     </script>
 </head>
 
 <body>
-    <ul id="listaOrdenada">
+    <ul id="listaOrdenadaUm">
         <li>Link 01</li>
         <li>Link 02</li>
         <li>Link 03</li>
     </ul>
+
+    <ul class="listaOrdenadaDois">
+        <li>Link 01</li>
+        <li>Link 02</li>
+        <li>Link 03</li>
+    </ul>
+
+    
+    
+
 
 </body>
 
